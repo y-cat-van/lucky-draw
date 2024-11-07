@@ -1,7 +1,7 @@
 <template>
   <div id="tool">
     <el-button @click="startHandler" type="primary" size="mini">{{
-      running ? '停止' : '开始'
+      running ? '停止' : '開始'
     }}</el-button>
     <el-button size="mini" @click="showRemoveoptions = true">
       重置

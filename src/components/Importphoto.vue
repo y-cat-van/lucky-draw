@@ -7,7 +7,7 @@
     class="c-Importphoto"
   >
     <el-row>
-      <label for="idinput">抽奖号码</label>
+      <label for="idinput">抽獎號碼</label>
       <el-input
         id="idinput"
         size="mini"
@@ -18,7 +18,7 @@
       ></el-input>
     </el-row>
     <el-row>
-      <label for="idinput">照片选择</label>
+      <label for="idinput">照片選擇</label>
       <span class="selectbg" :data-tip="filename">
         <input
           ref="uploadinput"
@@ -30,7 +30,7 @@
       </span>
     </el-row>
     <el-row class="photo">
-      <label>已选照片</label>
+      <label>已選照片</label>
       <img v-if="value" :src="value" alt="img" :width="140" :height="140" />
       <span v-else>暂未选择</span>
     </el-row>
